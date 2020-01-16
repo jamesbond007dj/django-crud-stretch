@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+        <h1>{{ book.title }}</h1>
+        <img class="detail" src="{{book.field_name}}"></img>
+        <h2>{{ book.author}}</h2>
+        <h2>{{ book.genre }}</h2>
+        <h3>{{ book.description }}</h3>
+        <div>
+          <h1><a href="{% url 'bk_edit' book.id %}">Edit Book</a></h1>
+        </div>
+        <div>
+          <h1><a href="{% url 'bk_delete' book.id %}">Delete Book</a></h1>
+        </div>
+          
+
+{% endblock content %}

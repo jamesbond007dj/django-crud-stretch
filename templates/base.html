@@ -1,0 +1,21 @@
+{% load static %}
+<html>
+  <head>
+    <title>Django blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Baloo+Tamma&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/reset.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+  </head>
+  <body>
+    <header>
+     <div>
+      <h1>NEEDFUL THINGS STORE</h1>
+     </div>
+    </header>
+    
+      {% block content %}
+      {% endblock content %}
+
+  </body>
+</html>

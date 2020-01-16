@@ -1,0 +1,12 @@
+body {
+    float: center;
+    margin: 0 auto;
+    width: 960px;
+    background-color: salmon;
+  }
+  
+  header {
+  
+    text-align: center;
+  }
+  

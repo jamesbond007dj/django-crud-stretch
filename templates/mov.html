@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for movie in object_list %}
+    <div>
+        <img class="mainMenu" src="{{movie.field_name}}"/></img>
+        <span> <a href="{% url 'mov_detail' movie.pk %}">{{ movie.title }}</a></span>
+    </div>
+    {% endfor %}
+    <span> <a href="{% url 'mov_detail' movie.pk %}">Add New movie</a></span>
+{% endblock content %}

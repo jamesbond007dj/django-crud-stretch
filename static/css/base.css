@@ -1,0 +1,104 @@
+
+h1 {
+  
+    color: red;
+    font-family: 'Audiowide', cursive;
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+  
+  }
+  
+  h2 {
+    
+    font-family: 'Audiowide', cursive;
+    font-size: 2vw;
+    padding: 25px;
+    text-align: center;
+    
+  
+  }
+  
+  h3 {
+    
+    font-family: 'Audiowide', cursive;
+    font-size: 1vw;
+    padding: 10px;
+    text-align: left;
+    color: black;
+    
+  
+  }
+  
+  div {
+    
+    border: solid 10px red;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(3, 8, 19);
+    display: inline-block;
+    height: 220px;
+    margin: 2px;
+    object-fit: scale-down;
+    position: relative;
+    margin: 0px 9px 0px 9px;
+    text-shadow: 5px;
+    width: 420px;
+  }
+  
+   
+  
+  .mainMenu {
+  
+    border: transparent;
+    height: 220px;
+    left: 0;
+    object-fit: fill;
+    position: absolute;
+    top: 0;
+    width: 420px;
+  }
+  
+  
+  
+  span {
+    
+    background: rgb(8, 245, 245);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    bottom: 0;
+    box-sizing: border-box;
+    font-family: 'Audiowide', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0.7;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width : 100%;
+  
+  }
+  
+  article {
+  
+    
+   padding-top: 40px;
+  }
+  
+  p {
+     
+    font-family: 'Audiowide', cursive;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    
+  }
+  
+  .media {
+  
+   border-radius: 5px;
+   margin: 5px;
+   
+  }
+  
+  

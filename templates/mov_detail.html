@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+        <h1>{{ movie.title }}</h1>
+        <img class="detail" src="{{movie.field_name}}"></img>
+        <h2>{{ movie.director }}</h2>
+        <h2>{{ movie.starring }}</h2>
+        <h2>{{ movie.genre }}</h2>
+        <h3>{{ movie.description }}</h3>
+        <div>
+          <h1><a href="{% url 'mov_edit' movie.id %}">Edit Movie</a></h1>
+        </div>
+        <div>
+          <h1><a href="{% url 'mov_delete' movie.id %}">Delete Movie</a></h1>
+        </div>
+
+{% endblock content %}
+
+
